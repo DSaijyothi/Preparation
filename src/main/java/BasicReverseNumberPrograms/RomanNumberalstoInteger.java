@@ -25,7 +25,7 @@ public class RomanNumberalstoInteger {
                 if (s1 >= s2) {
                     total = total + s1;
                 } else {
-                    total = total + s2;
+                    total = total - s1;
                 }
             } else {
                 total = total + s1;
