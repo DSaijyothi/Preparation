@@ -20,7 +20,7 @@ public class RomanNumberalstoInteger {
         int total =0;
         for(int i=0;i<s.length();i++) {
             int s1 = value(s.charAt(i));
-            if (i + 1 < s.charAt(i + 1)) {
+            if (i + 1 < s.length()) {
                 int s2 = value(s.charAt(i + 1));
                 if (s1 >= s2) {
                     total = total + s1;
