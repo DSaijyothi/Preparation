@@ -24,10 +24,14 @@ public class RomanNumberalstoInteger {
                 int s2 = value(s.charAt(i + 1));
                 if (s1 >= s2) {
                     total = total + s1;
-                } else {
+                }
+                else
+                {
                     total = total - s1;
                 }
-            } else {
+            }
+            else
+            {
                 total = total + s1;
             }
         }
@@ -35,7 +39,8 @@ public class RomanNumberalstoInteger {
             return total;
         }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         RomanNumberalstoInteger scaps=new RomanNumberalstoInteger();
         String RomanInt="UMHSC";
         System.out.println("The corresponding Integer:"+ scaps.RomanToInt(RomanInt));
