@@ -1,6 +1,6 @@
 package StandardPrograms;
 
-public class FibnociiSeriesUsingForLoop
+public class FactorialSeriesUsingForLoop
 {
     public static void main(String[] args) {
         int i, fact = 1;

@@ -11,7 +11,19 @@ public class PrimeNumber
         }
             else
             {
-
+                for(i=2;i<=m;i++)
+                {
+                    if(n%i==0)
+                    {
+                        System.out.println(n+"is not a prime number");
+                        flag=1;
+                        break;
+                    }
+                }
+if(flag==0)
+{
+    System.out.println(n+"It is a prime number");
+}
             }
         }
     }

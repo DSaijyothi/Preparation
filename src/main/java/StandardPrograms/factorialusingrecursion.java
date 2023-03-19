@@ -1,3 +1,4 @@
+
 package StandardPrograms;
 
 public class factorialusingrecursion
@@ -20,5 +21,4 @@ public class factorialusingrecursion
         fact=factorial(number);
         System.out.println("The factorial "+number+"is:"+fact);
     }
-
 }
