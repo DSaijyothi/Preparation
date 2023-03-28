@@ -14,7 +14,7 @@ public class SearchElementInanArray
         listofStrings.add("socket");
         listofStrings.add("blower");
         //Search element
-if(listofStrings.contains("socket"))
+if(listofStrings.contains("Assembler"))
 {
     System.out.println("******************************");
 }
