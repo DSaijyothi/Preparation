@@ -15,7 +15,7 @@ public class LinkList
         System.out.println("Linked list of elements:");
         //iterating linked list using iteratior
         Iterator<String> it=linkedList.iterator();
-        while(it.hasNext());
+        while(it.hasNext())
         {
         System.out.println(it.next());
 
